@@ -1,3 +1,7 @@
+/*input : no input*/
+/*output : Print 1-100*/
+/*Example : 1 2 3 4 5 ... 100*/
+
 import java.util.Scanner;
 
 public class EA1_1

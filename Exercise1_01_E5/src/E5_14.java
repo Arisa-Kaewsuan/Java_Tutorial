@@ -1,3 +1,10 @@
+/*input : enter 5 Integer
+ *        number of students who received grades A,B,C and D */
+/*output : Print GPA from (4*A)+(3*B)+(2*C)+(1*D)+(0*F) form
+
+/*Example : 15 20 10 25 10 --> 2.0625 */
+
+
 import java.util.Scanner;
 
 public class E5_14

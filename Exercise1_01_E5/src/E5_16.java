@@ -1,3 +1,10 @@
+/*input : enter 1 Integer (sec) */
+/*output : Print year month day hrs min sec
+/*Example : 1000000 --> 0 0 11 13 46 40 */
+/*          5000000 --> 0 1 27 20 53 20 */
+/*          2000000 --> 0 0 23 3  33 20 */
+
+
 import java.util.Scanner;
 
 public class E5_16

@@ -1,3 +1,6 @@
+/*input : store 62 and 99 in variables*/
+/*output : Print result of 62+99*/
+/*Example : 161*/
 
 public class E5_1
 {

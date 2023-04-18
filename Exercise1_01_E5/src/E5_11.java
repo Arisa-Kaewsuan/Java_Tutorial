@@ -1,3 +1,11 @@
+/*input : enter 6 Integer (a1,b1,c1,a2,b2,c2) sequently */
+/*output : find x and y from 
+           a1X+b1Y = C1 
+           a2X+B2Y = C2 */
+
+/*Example : 2 1 10 -1 2 0 --> 4.0  2.0 */
+/*          1 2 3   4 5 6 --> -1.0 2.0 */
+
 import java.util.Arrays;
 import java.util.Scanner;
 
