@@ -17,6 +17,7 @@ access example : Practice_B > src > B1.java
 - Practice F1 - F6  : find prime number / LCM / GCF
 - Practice H1 - H10 : Arrray / sum / min / max / sort
 - Practice J1 - J4  : statistics (avg / mode / medien)
+- Exercise1_01_E5   : applied problems
 
 
 
