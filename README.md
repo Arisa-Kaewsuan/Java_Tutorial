@@ -1,6 +1,6 @@
 
 
-# Java_Tutorials
+# Java_Tutorials 🚀
 
 This is my path to training the basics of programming with Java !
 
@@ -8,7 +8,7 @@ This is my path to training the basics of programming with Java !
 
 access example : Practice_B > src > B1.java
 
-1.) Basic
+**:: CONTENTS ::**
       
 - Practice B1 - B10 : input/output in java (scanner / print)
 - Practice C1 - C8  : loop & recursive
