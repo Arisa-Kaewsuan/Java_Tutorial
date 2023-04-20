@@ -19,5 +19,8 @@ access example : Practice_B > src > B1.java
 - Practice J1 - J4  : statistics (avg / mode / medien)
 - Exercise1_01_E5   : applied problems
 
-
+> ⚡️ Do this exercise using this CheetSheet !!!
+```
+      " When I heard and I forgot.        When I saw and I remembered.       When I do and I understand. " --[ 孔子 ]
+```
 
