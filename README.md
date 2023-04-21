@@ -24,3 +24,7 @@ access example : Practice_B > src > B1.java
       " When I heard and I forgot.        When I saw and I remembered.       When I do and I understand. " --[ 孔子 ]
 ```
 
+![Logo](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/10/java-cheatsheet.jpg)
+
+## 🔗 References :
+- https://www.edureka.co/blog/cheatsheets/java-cheat-sheet/
