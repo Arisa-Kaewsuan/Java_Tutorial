@@ -1,30 +1,25 @@
+# Java  Exercise 🚀
 
+      This is my path to training the basics of programming with Java.
 
-# Java_Tutorials 🚀
+### How to use this repository for practice
 
-This is my path to training the basics of programming with Java !
+      access example : Practice_B > src > B1.java
 
-### #How to use this repository for practice
-
-access example : Practice_B > src > B1.java
-
-**:: CONTENTS ::**
-      
-- Practice B1 - B10 : input/output in java (scanner / print)
-- Practice C1 - C8  : loop & recursive
-- Practice D1 - D5  : Arithmetic (+ / -/ */ sqr/ % ...)
-- Practice E1 - E3  : loop + if-else
-- Practice F1 - F6  : find prime number / LCM / GCF
-- Practice H1 - H10 : Arrray / sum / min / max / sort
-- Practice J1 - J4  : statistics (avg / mode / medien)
-- Exercise1_01_E5   : applied problems
-
-> ⚡️ Do this exercise using this CheetSheet !!!
-```
-      " When I heard and I forgot.        When I saw and I remembered.       When I do and I understand. " --[ 孔子 ]
-```
-
-![Logo](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2018/10/java-cheatsheet.jpg)
-
-## 🔗 References :
-- https://www.edureka.co/blog/cheatsheets/java-cheat-sheet/
+## Contents   
+- &nbsp; Practice B1 - B10 &nbsp;:&nbsp; input/output in java (scanner / print)
+  
+- &nbsp; Practice C1 - C8 &nbsp;:&nbsp; loop & recursive
+  
+- &nbsp; Practice D1 - D5 &nbsp;:&nbsp; Arithmetic (+ / -/ */ sqr/ % ...)
+  
+- &nbsp; Practice E1 - E3 &nbsp;:&nbsp; loop + if-else
+  
+- &nbsp; Practice F1 - F6 &nbsp;:&nbsp; find prime number / LCM / GCF
+  
+- &nbsp; Practice H1 - H10 &nbsp;:&nbsp; Arrray / sum / min / max / sort
+  
+- &nbsp; Practice J1 - J4 &nbsp;:&nbsp; statistics (avg / mode / medien)
+  
+- &nbsp; Exercise1_01_E5 &nbsp;:&nbsp; applied problems
+  
