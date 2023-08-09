@@ -1,4 +1,4 @@
-# Java  Exercise 🚀
+# Java  Exercises 🚀
 
       This is my path to training the basics of programming with Java.
 
