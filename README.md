@@ -98,6 +98,6 @@
 - &nbsp; **INTERMEDIATE** <br/>
   &nbsp; : &nbsp; learnning by doing java project with source code
   
-  - &nbsp; มีอธิบาย tech stack ที่ใช้ และสามารถโหลดโค้ดมาลองรัน หรืออ่านทำความเข้าใจได้ &nbsp;:&nbsp; [projectsgeek](https://projectsgeek.com/) &nbsp;&nbsp; [javatpoint](https://www.javatpoint.com/free-java-projects) 
+  - &nbsp; มีอธิบาย tech stack ที่ใช้ และสามารถโหลดโค้ดมาลองรัน หรืออ่านทำความเข้าใจได้ &nbsp;:&nbsp; [projectsgeek](https://projectsgeek.com/) &nbsp;&nbsp; [javatpoint](https://www.javatpoint.com/free-java-projects)  &nbsp;&nbsp; [interviewbit](https://www.interviewbit.com/blog/java-projects/)
 
   
