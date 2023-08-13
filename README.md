@@ -2,13 +2,13 @@
 
 - &nbsp; จะเริ่มเขียนโปรแกรมภาษา java ต้องเตรียม environment ยังไง ?
 
-       1.  ต้องมีตัวแปรภาษาจาวา (compliler)  :  java compliler ชื่อ JDK / JRE java พัฒนาโดยบริษัท sunmicro system แต่ปัจจุบันถูกบริษัท Oracle
-        เข้าซื้อ java จึงกลายเป็นของบริษัท Oracle
+       1.  ต้องมีตัวแปรภาษาจาวา (compliler)  :  java compliler ชื่อ JDK / JRE java พัฒนาโดยบริษัท sun micro-system
+           แต่ปัจจุบันถูกบริษัท Oracle เข้าซื้อ java จึงกลายเป็นของบริษัท Oracle
 
        2.  ต้องมี editor ที่ใช้ในการเขียน และ debug โค้ด  :  มีหลายโปรแกรมให้เลือก เช่น  netbean , Eclipse , JDeveloper
 
-       3.  เริ่มเขียนโปรแกรมได้เลยโดย  :  เปิดโปรแกรม editor ที่เราโหลดมา >> create java project  >> create class ลองเขียนโปรแกรมแรกง่ายๆ
-           ด้วยภาษา java เป็นการเทส เช่น เขียนโปรแกรมให้ปริ้น Hello World ออกหน้าจอ  >> ลองกด run 
+       3.  เริ่มเขียนโปรแกรมได้เลยโดย  :  เปิดโปรแกรม editor ที่เราโหลดมา >> create java project  >> create class
+           ลองเขียนโปรแกรมแรกง่ายๆด้วยภาษา java เป็นการเทส เช่น เขียนโปรแกรมให้ปริ้น Hello World ออกหน้าจอ  >> ลองกด run 
    > [ทาง Oracle มีแนะนำไว้](https://developer.oracle.com/languages/ide.html)
 
 <br/>
