@@ -88,6 +88,8 @@
   - &nbsp;  คำถามเหมาะกับการฝึก java OOP/ Data Structure มีอธิบายโค้ด + flowchart ด้วย &nbsp;:&nbsp; [w3resource](https://www.w3resource.com/java-exercises/index-polymorphism.php)
     
   - &nbsp;  เหมาะใช้ฝึก logic ฝึกให้คุ้นกับ syntax ภาษา java &nbsp;:&nbsp;
+    - &nbsp; [javaforaliens](https://www.javaforaliens.com/files/jfa13-exe-1-20-E.pdf) &nbsp;:&nbsp;  เป็นเหมือนหนังสือ workbook มีคำถามเกี่ยวกับ java แล้วก็โจทย์ให้ทำเยอะมาก แล้วยังมีเฉลยด้วย
+    - &nbsp; [geeksforgeeks](https://www.geeksforgeeks.org/java-programming-examples/) &nbsp;:&nbsp; เป็นโจทย์ที่ช่วยฝึก logic เป็นโจทย์ที่มักเจอในข้อสอบมหาลัยด้วย
     - &nbsp; [codingbat](https://codingbat.com/java/Map-1)  &nbsp;:&nbsp;  โจทย์ recursion เยอะดี       
     - &nbsp; [www3.ntu.edu.sg](https://www3.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-14.4) &nbsp;:&nbsp; มีอธิบาย Algorithm sorting (bubble,selection,insertion,quick,merge,heap)
   
