@@ -179,7 +179,12 @@
 <br/>
 
 ### 3. &nbsp; **JAVA DATABASE** &nbsp;🧠
-  - &nbsp; MySQL &nbsp;:&nbsp;
+  - &nbsp; **MySQL** &nbsp;:&nbsp;
+
+           1. ต้องมี Driver/API ที่ทาง mysql ทำไว้ใช้เชื่อมต่อกับภาษาจาวา ที่ชื่อว่า JDBC (Java Database Connectivity)
+       > [Download JDBC ได้ที่นี่](https://www.mysql.com/products/connector/)
+
+           2. 
  
 <br/>
 
