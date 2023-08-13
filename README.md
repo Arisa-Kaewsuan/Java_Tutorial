@@ -82,19 +82,14 @@
  <br/><br/>
 
 ## EXERCISES  
-- &nbsp; Practice B1 - B10 &nbsp;:&nbsp; input/output in java (scanner / print)
+- &nbsp; **BEGINNER**
+  - &nbsp;  คำถามเหมาะกับการเตรียมตัวสัมภาษณ์งาน &nbsp;:&nbsp; [code-exercises](https://code-exercises.com/) &nbsp;&nbsp; [pythonistaplanet](https://pythonistaplanet.com/java-programming-exercises-with-solutions/) &nbsp;&nbsp; [edabit](https://edabit.com/challenges/java)
+    
+  - &nbsp;  คำถามเหมาะกับการฝึก java OOP/ Data Structure มีอธิบายโค้ด + flowchart ด้วย &nbsp;:&nbsp; [w3resource](https://www.w3resource.com/java-exercises/index-polymorphism.php)
+    
+  - &nbsp;  เหมาะใช้ฝึก logic ฝึกให้คุ้นกับ syntax ภาษา java &nbsp;:&nbsp;
+    - &nbsp; [codingbat](https://codingbat.com/java/Map-1)  &nbsp;:&nbsp;  โจทย์ recursion เยอะดี       
+    - &nbsp; [www3.ntu.edu.sg](https://www3.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-14.4) &nbsp;:&nbsp; มีอธิบาย Algorithm sorting (bubble,selection,insertion,quick,merge,heap)
   
-- &nbsp; Practice C1 - C8 &nbsp;:&nbsp; loop & recursive
-  
-- &nbsp; Practice D1 - D5 &nbsp;:&nbsp; Arithmetic (+ / -/ */ sqr/ % ...)
-  
-- &nbsp; Practice E1 - E3 &nbsp;:&nbsp; loop + if-else
-  
-- &nbsp; Practice F1 - F6 &nbsp;:&nbsp; find prime number / LCM / GCF
-  
-- &nbsp; Practice H1 - H10 &nbsp;:&nbsp; Arrray / sum / min / max / sort
-  
-- &nbsp; Practice J1 - J4 &nbsp;:&nbsp; statistics (avg / mode / medien)
-  
-- &nbsp; Exercise1_01_E5 &nbsp;:&nbsp; applied problems
+
   
