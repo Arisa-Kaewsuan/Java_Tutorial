@@ -111,7 +111,15 @@
     - &nbsp; แบบ extends Thread &nbsp;:&nbsp; สร้างคลาส extends Thread  &nbsp;&nbsp;>>&nbsp;&nbsp;  สร้าง method run (Override) มาใช้ เขียนโค้ดกำหนดสิ่งที่อยากทำ &nbsp;&nbsp;>>&nbsp;&nbsp; แล้วเรียกใช้คลาส(new class) &nbsp;&nbsp;>>&nbsp;&nbsp; เรียกใช้เมธอด start มันก็จะวิ่งไปทำคำสั่งที่อยู่ใน method run
    
     - &nbsp; แบบ implements Runnable / anonymous class (คือคลาสย่อยในอีกคลาส) &nbsp;:&nbsp; ใช้การ new class thread  &nbsp;&nbsp;>>&nbsp;&nbsp;  แล้ว Anonymousclass run (Override) มาใช้ เขียนโค้ดกำหนดสิ่งที่อยากทำในบล็อก catch  และระบุการหยุดทำงาน ในบล็อก try ```Thread.sleep(50);```  50 millisec &nbsp;&nbsp;>>&nbsp;&nbsp;  เรียกใช้เมธอด start
-       > นิยมใช้แบบนี้ทำ muti-Thread คือ สร้างการทำงานหลายๆอย่าง 1 งาน = 1 Thread แล้วเรียงการทำงานด้วยการสั่ง start เรียงกัน  แต่ถ้าเรากำหนด sleep ให้อันไหนน้อยกว่า แปลว่ามันหยุดพักน้อยกว่า มันก็จะทำงานได้มากกว่า 
+       > นิยมใช้แบบนี้ทำ muti-Thread คือ สร้างการทำงานหลายๆอย่าง 1 งาน = 1 Thread แล้วเรียงการทำงานด้วยการสั่ง start เรียงกัน  แต่ถ้าเรากำหนด sleep ให้อันไหนน้อยกว่า แปลว่ามันหยุดพักน้อยกว่า มันก็จะทำงานได้มากกว่า
+       
+
+ - &nbsp; [Read-Write File](https://www.w3schools.com/java/java_files_create.asp) &nbsp;:&nbsp; ```import java.io.File;``` &nbsp;:&nbsp; ```import java.io.IOException;``` &nbsp;:&nbsp; ```import java.io.FileWriter;``` การเขียนอ่านไฟล์ต้องใช้คู่กับ Exception เสมอ
+   - &nbsp;  สร้างไฟล์เก็บในไดร้ฟ์ C:\Users\MyName ชื่อไฟล์ filename.txt ```File myObj = new File("C:\\Users\\MyName\\filename.txt");```
+     
+   - &nbsp;  เขียนข้อมูลลงไฟล์ต้อง new class FileWriter ก่อน ```FileWriter myWriter = new FileWriter("filename.txt");``` แล้วถึงเขียน  <br/> ```myWriter.write("Files in Java might be tricky, but it is fun enough!");```
+     
+   - &nbsp;  อ่านข้อมูลในไฟล์ต้อง new class File ก่อน ```File myObj = new File("filename.txt");``` แล้วถึงดึงมาอ่าน  <br/> ```Scanner myReader = new Scanner(myObj);``` โดยการวนลูปอ่านทีละ บรรทัด (line)
 
 <br/>
 
