@@ -164,9 +164,9 @@
     - การเรียกใช้คลาส &nbsp;:&nbsp; ต้อง new class ก่อน ```Person obj = new Person();``` แล้วเรียกใช้ method ผ่าน instance object ของคลาส ```obj.employee```
       > Note &nbsp;:&nbsp; class คือ object/ต้นแบบ ตอนเรา new class (เหมือน copy) ไปใช้สิ่งที่ได้เราจะเรียกว่า instance ของคลาส หรือ instance object / ตัว copy
     
-  - &nbsp; inheritance &nbsp;:&nbsp; ```class Car extends Vehicle {...}```
+  - &nbsp; [inheritance](https://www.w3schools.com/java/java_inheritance.asp) &nbsp;:&nbsp; ```class Car extends Vehicle {...}```
     
-  - &nbsp; polymorphism &nbsp;:&nbsp; คือการเอา method ที่มีอยู่แล้วมาใช้ รับ parameter เหมือนเดิม แต่แก้โครงสร้างภายในให้มันทำงานต่างจากเดิม
+  - &nbsp; [polymorphism](https://www.w3schools.com/java/java_polymorphism.asp) &nbsp;:&nbsp; คือการเอา method ที่มีอยู่แล้วมาใช้ รับ parameter เหมือนเดิม แต่แก้โครงสร้างภายในให้มันทำงานต่างจากเดิม
  
 <br/>
 
