@@ -14,14 +14,16 @@
 <br/>
 
 ## JAVA &nbsp;SYNTAX
-- &nbsp; [BASIC JAVA](https://www.w3schools.com/java/java_syntax.asp)
-  - &nbsp; syntax พื้นฐานของ java &nbsp;:&nbsp; แบ่งบล็อคคำสั่งด้วยเครื่องหมายปีกกา " {} " และจบ 1 คำสั่งต้องปิดท้ายด้วยเซมิโคลิน " ; " 
+- &nbsp; [**BASIC JAVA**](https://www.w3schools.com/java/java_syntax.asp)
+  - &nbsp; syntax พื้นฐานของ java &nbsp;:&nbsp;
+    - &nbsp; แบ่งบล็อคคำสั่งด้วยเครื่องหมายปีกกา " {} " และจบ 1 คำสั่งต้องปิดท้ายด้วยเซมิโคลิน " ; "
+    - &nbsp; ถ้าใช้ Eclipse เวลาเราใช้ classที่javaมีให้ใช้ หรือก็คือพวกคำสั่งพื้นฐาน(build-in class/method) ต้อง import เข้ามาก่อนถึงจะใช้งานได้ โปรแกรม eclipse จะช่วยเรา import ให้อัติโนมัติ ดังนั้น ไม่จำเป็นต้องจำได้ ให้เห็นผ่านๆ ใช้บ่อยๆ มันจะจำได้ไปเอง
     
-  - &nbsp; input &nbsp;:&nbsp; ``` ```
+  - &nbsp; input &nbsp;:&nbsp;  ``` ``` &nbsp;:&nbsp; ``` ```
     
   - &nbsp; output &nbsp;:&nbsp; ``` ```
  
-  - &nbsp; output &nbsp;:&nbsp; ``` ```
+  - &nbsp; comment &nbsp;:&nbsp; ``` ```
     
   - &nbsp; condition &nbsp;:&nbsp; ``` ``` &nbsp;&nbsp; Ternary Condition ``` ``` &nbsp;&nbsp; Switchcase ``` ```
     
@@ -46,7 +48,7 @@
 
 <br/>
 
-- &nbsp; JAVA OOP
+- &nbsp; **JAVA OOP**
   - &nbsp; method &nbsp;:&nbsp; การสร้างเมธอด &nbsp; ``` ``` &nbsp;&nbsp; การเรียกใช้เมธอด ``` ```
     
   - &nbsp; class &nbsp;:&nbsp; การสร้างคลาส &nbsp; ``` ``` &nbsp;&nbsp; การระบุ constructor ``` ``` &nbsp;&nbsp; การเรียกใช้คลาส ``` ```
@@ -57,8 +59,25 @@
  
 <br/>
 
-- &nbsp; JAVA GUI
-  - &nbsp; input &nbsp;:&nbsp; ``` ```
+- &nbsp; **JAVA DATABASE**
+  - &nbsp; MySQL &nbsp;:&nbsp;
+ 
+<br/>
+
+- &nbsp; **JAVA GUI**
+  - &nbsp; JFrame คืออะไร ? &nbsp;:&nbsp;
+  - &nbsp; JPanel คืออะไร ? &nbsp;:&nbsp;
+  - &nbsp; EventListener คืออะไร ? &nbsp;:&nbsp;
+  - &nbsp; Graphic g คืออะไร ? &nbsp;:&nbsp;
+  - &nbsp; เริ่มทำโปรแกรม GUI ยังไง ? &nbsp;:&nbsp;
+  - &nbsp; java awt คืออะไร ? &nbsp;:&nbsp;
+ 
+<br/>
+
+- &nbsp; **JAVA WEB**
+  - &nbsp; เริ่มทำ web ด้วย java ยังไง ? &nbsp;:&nbsp;
+  - &nbsp; javaEE คืออะไร ? &nbsp;:&nbsp;
+  - &nbsp; java swing คืออะไร ? &nbsp;:&nbsp;
 
  <br/><br/>
 
