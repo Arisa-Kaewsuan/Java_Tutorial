@@ -21,26 +21,50 @@
     - &nbsp; แบ่งบล็อคคำสั่งด้วยเครื่องหมายปีกกา " {} " และจบ 1 คำสั่งต้องปิดท้ายด้วยเซมิโคลิน " ; "
     - &nbsp; ถ้าใช้ Eclipse เวลาเราใช้ classที่javaมีให้ใช้ หรือก็คือพวกคำสั่งพื้นฐาน(build-in class/method) ต้อง import เข้ามาก่อนถึงจะใช้งานได้ โปรแกรม eclipse จะช่วยเรา import ให้อัติโนมัติ ดังนั้น ไม่จำเป็นต้องจำได้ ให้เห็นผ่านๆ ใช้บ่อยๆ มันจะจำได้ไปเอง
     
-  - &nbsp; input &nbsp;:&nbsp;  ``` ``` &nbsp;:&nbsp; ``` ```
+  - &nbsp; input &nbsp;:&nbsp;
+    - ```import java.util.Scanner;```
+    - ```Scanner sc = new Scanner(System.in);```
+    - รับ input เป็นสตริง ```String userName = sc.nextLine();```
+    - รับ input เป็นเลขจำนวนเต็ม ```int age = sc.nextInt();```
+    - รับ input เป็นเลขทศนิยม ```double salary = sc.nextDouble();```
     
-  - &nbsp; output &nbsp;:&nbsp; ``` ```
+  - &nbsp; output &nbsp;:&nbsp;
+    - ปริ้นแบบขึ้นบรรทัดใหม่ ```System.out.println("Hello World! ");```
+    - ปริ้นแบบมี format เช่น ปริ้นเลขทศนิยม 2 ตำแหน่ง ```System.out.printf(“%.2f”, 12```
  
-  - &nbsp; comment &nbsp;:&nbsp; ``` ```
+  - &nbsp; comment &nbsp;:&nbsp; ```/* multiline */``` &nbsp;&nbsp; ```// single line```
     
-  - &nbsp; condition &nbsp;:&nbsp; ``` ``` &nbsp;&nbsp; Ternary Condition ``` ``` &nbsp;&nbsp; Switchcase ``` ```
+  - &nbsp; condition &nbsp;:&nbsp;
+    - If - else condition ```if() - else if() - else```
+    - Ternary Condition ```String result = (time < 18) ? "Good day." : "Good evening.";```
+    - Switchcase ```switch (case)```
     
-  - &nbsp; loop &nbsp;:&nbsp; While Loop ``` ``` &nbsp;&nbsp; For Loop ``` ``` &nbsp;&nbsp; Infinite Loop ``` ``` &nbsp;&nbsp; Break Loop ``` ``` &nbsp;:&nbsp; Continue Loop ``` ```
+  - &nbsp; loop &nbsp;:&nbsp;
+    - While Loop ```ค่าเริ่มต้น while (condition){ เพิ่มค่า/ลดค่า }```
+    - For Loop ```for (int i = 0; i < 5; i++) {...}```
+    - Foreach Loop  &nbsp;:&nbsp;  ใช้วนลูปอ่านค่าใน array ```for (String i : arr)```
+    - Infinite Loop ```while (true) {...}```
+    - Break Loop ```break;```
+    - Continue Loop ```continue;```
     
-  - &nbsp; ภาษา java มีชนิดข้อมูล (Data type) อะไรบ้าง &nbsp;:&nbsp;
+  - &nbsp; ภาษา java มีชนิดข้อมูล (Data type) อะไรบ้าง &nbsp;:&nbsp; มี 2 ประเภท
     - &nbsp; Primitive Data Types &nbsp;:&nbsp; ตัวแปรธรรมดา ```Integer``` ```BigInteger``` ```Float``` ```Double``` ```Char``` ```String``` ```Short``` ```Long``` &nbsp;&nbsp;&nbsp;&nbsp;
       
     - &nbsp; Reference/Object Data Types &nbsp;:&nbsp; ตัวแปรแบบชี้พ้อยเตอร์จะมีโครงสร้างในการเก็บ เก็บเป็นก้อนๆ เก็บได้เยอะ เลยต้องมีพ้อยเตอร์ชี้  สามารถ inplement คือเขียนเป็นคลาสขึ้นมาใช้เองได้เหมือนที่เรียนใน Data Structure แต่ใน java ก็ทำไว้ให้เรียกใช้ได้เหมือนกันเรียก (build-in method) ```Array``` ```ArrayList``` ```Linked List``` ```Hashmap``` ```Stack``` ```Queue``` ```Tree (ต้อง implement เอง)```
     
-  - &nbsp; Array &nbsp;:&nbsp; สร้างตัวแปรอาเรย์ ``` ``` &nbsp;&nbsp; Access Array ``` ``` &nbsp;&nbsp; Edit Array ``` ```
+  - &nbsp; Array &nbsp;:&nbsp;
+    - สร้างตัวแปรอาเรย์ ``` ```
+    - Access Array ``` ```
+    - Edit Array ``` ```
     
-  - &nbsp; String &nbsp;:&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp;
+  - &nbsp; String &nbsp;:&nbsp;
+    - ดึงตัวอักษรในสตริงตำแหน่งที่ 0 ```str.charAt(0)```
+    - ตัด whitespace หัว-ท้าย ```str.trim()```
+    - ความยาวข้องข้อความ นับทุกตัวอักษรรวมเว้นวรรคด้วย ```str.length()```
+    - เช็คว่ามีค่ามั้ย ```str.isEmpty()```
+    - เช็คว่าสตริงสองตัวเท่ากันมั้ย ```str1.equals(str2)``` 
     
-  - &nbsp; Math &nbsp;:&nbsp; หา min ``` ``` &nbsp;&nbsp; หา max ``` ``` &nbsp;&nbsp; หาค่าเฉลี่ย ``` ``` &nbsp;&nbsp; ค่าคงที่ PI ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp;
+  - &nbsp; Math &nbsp;:&nbsp; ```Math.min(5, 10);``` &nbsp;&nbsp; ```Math.max(5, 10);``` &nbsp;&nbsp; ```Math.sqrt(64);``` &nbsp;&nbsp; ```Math.abs(-4.7);``` &nbsp;&nbsp; ```Math.random();``` &nbsp;&nbsp; ```Math.pow(x, y)``` 
  
   - &nbsp; [Hashmap](https://www.w3schools.com/java/java_hashmap.asp) &nbsp;:&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ```
     
