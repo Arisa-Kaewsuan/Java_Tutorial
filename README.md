@@ -92,6 +92,12 @@
     - &nbsp; [geeksforgeeks](https://www.geeksforgeeks.org/java-programming-examples/) &nbsp;:&nbsp; เป็นโจทย์ที่ช่วยฝึก logic เป็นโจทย์ที่มักเจอในข้อสอบมหาลัยด้วย
     - &nbsp; [codingbat](https://codingbat.com/java/Map-1)  &nbsp;:&nbsp;  โจทย์ recursion เยอะดี       
     - &nbsp; [www3.ntu.edu.sg](https://www3.ntu.edu.sg/home/ehchua/programming/java/J2a_BasicsExercises.html#zz-14.4) &nbsp;:&nbsp; มีอธิบาย Algorithm sorting (bubble,selection,insertion,quick,merge,heap)
+   
+ <br/>
+
+- &nbsp; **INTERMEDIATE** <br/>
+  &nbsp; : &nbsp; learnning by doing java project with source code
   
+  - &nbsp; มีอธิบาย tech stack ที่ใช้ และสามารถโหลดโค้ดมาลองรัน หรืออ่านทำความเข้าใจได้ &nbsp;:&nbsp; [projectsgeek](https://projectsgeek.com/) &nbsp;&nbsp; [javatpoint](https://www.javatpoint.com/free-java-projects) 
 
   
