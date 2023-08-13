@@ -207,13 +207,13 @@
     
        > [อ่านพื้นฐาน Database เพิ่มเติมได้ที่นี่]() และ [Download free sample data (sakila) ได้ที่นี่](https://dev.mysql.com/doc/index-other.html)
 
-       - &nbsp; Step &nbsp;1 &nbsp;&nbsp;:&nbsp;&nbsp;
+       - &nbsp; Step &nbsp;1 &nbsp;&nbsp;:&nbsp;&nbsp; create connection ต้องใช้คู่ try-catch เสมอเพื่อดักจับ Exeption <br/>```con = DriverManager.getConnection( URL , Username , Password );``` connection จะทำการเข้าถึง ฐานข้อมูล
    
-       - &nbsp; Step &nbsp;2 &nbsp;&nbsp;:&nbsp;&nbsp;
+       - &nbsp; Step &nbsp;2 &nbsp;&nbsp;:&nbsp;&nbsp; create Statement มาต่อกับ connaction ```st = con.createStatement();``` statement จะส่งคำสั่ง sql ไปให้ JDBC ประมวลผล JDBC ก็จะติดต่อกับฐานข้อมูลตาม connection ที่เราระบุไว้ ส่งคำสั่ง SQL ตามที่เราจะระบุในบรรทัดต่อไป ให้ฐานข้อมูล mysql execute เพื่อ รับข้อมูล ตามที่ร้องขอ กลับมาใช้
    
-       - &nbsp; Step &nbsp;3 &nbsp;&nbsp;:&nbsp;&nbsp;
+       - &nbsp; Step &nbsp;3 &nbsp;&nbsp;:&nbsp;&nbsp; กำหนดคำสั่ง SQL ต่อกับ statement ```rt = st.executeQuery("SELECT * FROM user");```
    
-       - &nbsp; Step &nbsp;4 &nbsp;&nbsp;:&nbsp;&nbsp;
+       - &nbsp; Step &nbsp;4 &nbsp;&nbsp;:&nbsp;&nbsp; เขียนโปรแกรมระบุว่าจะเอาข้อมูลที่ดึงมาได้ทำอะไร เช่น วนลูปอ่านค่าที่ดึงมา ดังตัวอย่างข้างล่าง
  
 <br/>
 
