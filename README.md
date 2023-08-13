@@ -9,12 +9,12 @@
 
        3.  เริ่มเขียนโปรแกรมได้เลยโดย  :  เปิดโปรแกรม editor ที่เราโหลดมา >> create java project  >> create class
            ลองเขียนโปรแกรมแรกง่ายๆด้วยภาษา java เป็นการเทส เช่น เขียนโปรแกรมให้ปริ้น Hello World ออกหน้าจอ  >> ลองกด run 
-   > [ทาง Oracle มีแนะนำไว้](https://developer.oracle.com/languages/ide.html)
+   > [ทาง Oracle มีแนะนำ Editor ไว้ 🔗](https://developer.oracle.com/languages/ide.html)
 
 <br/>
 
-## Java &nbsp;Syntax
-- &nbsp; BASIC JAVA
+## JAVA &nbsp;SYNTAX
+- &nbsp; [BASIC JAVA](https://www.w3schools.com/java/java_syntax.asp)
   - &nbsp; syntax พื้นฐานของ java &nbsp;:&nbsp; แบ่งบล็อคคำสั่งด้วยเครื่องหมายปีกกา " {} " และจบ 1 คำสั่งต้องปิดท้ายด้วยเซมิโคลิน " ; " 
     
   - &nbsp; input &nbsp;:&nbsp; ``` ```
@@ -62,7 +62,7 @@
 
  <br/><br/>
 
-## Exercise  
+## EXERCISES  
 - &nbsp; Practice B1 - B10 &nbsp;:&nbsp; input/output in java (scanner / print)
   
 - &nbsp; Practice C1 - C8 &nbsp;:&nbsp; loop & recursive
