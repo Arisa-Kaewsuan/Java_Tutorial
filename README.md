@@ -11,15 +11,15 @@
   - &nbsp; loop &nbsp;:&nbsp; While Loop ``` ``` &nbsp;&nbsp; For Loop ``` ``` &nbsp;&nbsp; Infinite Loop ``` ``` &nbsp;&nbsp; Break Loop ``` ``` &nbsp;:&nbsp; Continue Loop ``` ```
     
   - &nbsp; ภาษา java มีชนิดข้อมูล (Data type) อะไรบ้าง &nbsp;:&nbsp;
-    - Primitive Data Types &nbsp;:&nbsp; ตัวแปรธรรมดา ```Integer``` ```BigInteger``` ```Float``` ```Double``` ```Char``` ```String``` ```Short``` ```Long``` &nbsp;&nbsp;&nbsp;&nbsp;
+    - &nbsp; Primitive Data Types &nbsp;:&nbsp; ตัวแปรธรรมดา ```Integer``` ```BigInteger``` ```Float``` ```Double``` ```Char``` ```String``` ```Short``` ```Long``` &nbsp;&nbsp;&nbsp;&nbsp;
       
-    - Reference/Object Data Types &nbsp;:&nbsp; ตัวแปรแบบชี้พ้อยเตอร์จะมีโครงสร้างในการเก็บ เก็บเป็นก้อนๆ เก็บได้เยอะ เลยต้องมีพ้อยเตอร์ชี้  สามารถ inplement คือเขียนเป็นคลาสขึ้นมาใช้เองได้เหมือนที่เรียนใน Data Structure แต่ใน java ก็ทำไว้ให้เรียกใช้ได้เหมือนกันเรียก (build-in method) ```Array``` ```ArrayList``` ```Linked List``` ```Hashmap``` ```Stack``` ```Queue```
+    - &nbsp; Reference/Object Data Types &nbsp;:&nbsp; ตัวแปรแบบชี้พ้อยเตอร์จะมีโครงสร้างในการเก็บ เก็บเป็นก้อนๆ เก็บได้เยอะ เลยต้องมีพ้อยเตอร์ชี้  สามารถ inplement คือเขียนเป็นคลาสขึ้นมาใช้เองได้เหมือนที่เรียนใน Data Structure แต่ใน java ก็ทำไว้ให้เรียกใช้ได้เหมือนกันเรียก (build-in method) ```Array``` ```ArrayList``` ```Linked List``` ```Hashmap``` ```Stack``` ```Queue``` ```Tree (ต้อง implement เอง)```
     
-  - &nbsp; Array &nbsp;:&nbsp; ``` ```
+  - &nbsp; Array &nbsp;:&nbsp; สร้างตัวแปรอาเรย์ ``` ``` &nbsp;&nbsp; Access Array ``` ``` &nbsp;&nbsp; Edit Array ``` ```
     
   - &nbsp; String &nbsp;:&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp;
     
-  - &nbsp; Math &nbsp;:&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp;
+  - &nbsp; Math &nbsp;:&nbsp; หา min ``` ``` &nbsp;&nbsp; หา max ``` ``` &nbsp;&nbsp; หาค่าเฉลี่ย ``` ``` &nbsp;&nbsp; ค่าคงที่ PI ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp;
  
   - &nbsp; [Hashmap](https://www.w3schools.com/java/java_hashmap.asp) &nbsp;:&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ```
     
