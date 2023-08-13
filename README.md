@@ -2,13 +2,15 @@
 
 - &nbsp; จะเริ่มเขียนโปรแกรมภาษา java ต้องเตรียม environment ยังไง ?
 
-       1.  ต้องมีตัวแปรภาษาจาวา (compliler)  :  java compliler ชื่อ JDK / JRE java พัฒนาโดยบริษัท sun micro-system
-           แต่ปัจจุบันถูกบริษัท Oracle เข้าซื้อ java จึงกลายเป็นของบริษัท Oracle
+       1.  ต้องมีตัวแปรภาษาจาวา (compliler)  :  java compliler ชื่อ JDK / JRE java พัฒนาโดยบริษัท
+           sun micro-system แต่ปัจจุบันถูกบริษัท Oracle เข้าซื้อ java จึงกลายเป็นของบริษัท Oracle
 
-       2.  ต้องมี editor ที่ใช้ในการเขียน และ debug โค้ด  :  มีหลายโปรแกรมให้เลือก เช่น  netbean , Eclipse , JDeveloper
+       2.  ต้องมี editor ที่ใช้ในการเขียน และ debug โค้ด  :  มีหลายโปรแกรมให้เลือก เช่น  netbean ,
+           Eclipse , JDeveloper
 
-       3.  เริ่มเขียนโปรแกรมได้เลยโดย  :  เปิดโปรแกรม editor ที่เราโหลดมา >> create java project  >> create class
-           ลองเขียนโปรแกรมแรกง่ายๆด้วยภาษา java เป็นการเทส เช่น เขียนโปรแกรมให้ปริ้น Hello World ออกหน้าจอ  >> ลองกด run 
+       3.  เริ่มเขียนโปรแกรมได้เลยโดย  :  เปิดโปรแกรม editor ที่เราโหลดมา >> create java project
+           >> create class ลองเขียนโปรแกรมแรกง่ายๆด้วยภาษา java เป็นการเทส เช่น เขียนโปรแกรมให้ปริ้น
+           Hello World ออกหน้าจอ  >> ลองกด run 
    > [ทาง Oracle มีแนะนำ Editor ไว้ 🔗](https://developer.oracle.com/languages/ide.html)
 
 <br/>
@@ -98,6 +100,6 @@
 - &nbsp; **INTERMEDIATE** <br/>
   &nbsp; : &nbsp; learnning by doing java project with source code
   
-  - &nbsp; มีอธิบาย tech stack ที่ใช้ และสามารถโหลดโค้ดมาลองรัน หรืออ่านทำความเข้าใจได้ &nbsp;:&nbsp; [projectsgeek](https://projectsgeek.com/) &nbsp;&nbsp; [javatpoint](https://www.javatpoint.com/free-java-projects)  &nbsp;&nbsp; [interviewbit](https://www.interviewbit.com/blog/java-projects/)
+  - &nbsp; มีอธิบาย tech stack ที่ใช้ และสามารถโหลดโค้ดมาลองรัน หรืออ่านทำความเข้าใจได้ &nbsp;:&nbsp; [projectsgeek](https://projectsgeek.com/) &nbsp;&nbsp; [javatpoint](https://www.javatpoint.com/free-java-projects)  &nbsp;&nbsp; [interviewbit](https://www.interviewbit.com/blog/java-projects/) &nbsp;&nbsp; [hackr.io](https://hackr.io/blog/java-projects) &nbsp;&nbsp; [freeprojectz](https://www.freeprojectz.com/java-projects) &nbsp;&nbsp; [projectworlds](https://projectworlds.in/java-projects-with-source-code/) &nbsp;&nbsp; [projectabstracts](https://projectabstracts.com/simple-java-projects-with-source-code-free-download#free) &nbsp;&nbsp; [code-projects](https://code-projects.org/c/languages/project/javaprojects/) &nbsp;&nbsp; [kashipara](https://www.kashipara.com/project/category/download_java-project-source-code_1)
 
   
