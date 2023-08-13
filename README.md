@@ -53,9 +53,27 @@
     - &nbsp; Reference/Object Data Types &nbsp;:&nbsp; ตัวแปรแบบชี้พ้อยเตอร์จะมีโครงสร้างในการเก็บ เก็บเป็นก้อนๆ เก็บได้เยอะ เลยต้องมีพ้อยเตอร์ชี้  สามารถ inplement คือเขียนเป็นคลาสขึ้นมาใช้เองได้เหมือนที่เรียนใน Data Structure แต่ใน java ก็ทำไว้ให้เรียกใช้ได้เหมือนกันเรียก (build-in method) ```Array``` ```ArrayList``` ```Linked List``` ```Hashmap``` ```Stack``` ```Queue``` ```Tree (ต้อง implement เอง)```
     
   - &nbsp; Array &nbsp;:&nbsp;
-    - สร้างตัวแปรอาเรย์ ``` ```
-    - Access Array ``` ```
-    - Edit Array ``` ```
+    - สร้างตัวแปรอาเรย์/ประกาศตัวแปรชนิดอาเรย์  &nbsp;:&nbsp; ทำได้ 2 แบบคือ แบบไม่ระบุค่าประกาศอาเรย์ว่างๆไว้ รอเอาค่ามาใส่ ```String[] cars;``` กับแบบระบุค่า ใช้เครื่องหมายปีกกา {} ```String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};```
+    - Access Array ```cars[0];```
+    - Edit Array ```cars[0] = "Opel";```
+    - ขนาดของ Array ```cars.length;```
+    - Array 2 มิติ ```int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };```
+   
+  - &nbsp; ArrayList &nbsp;:&nbsp; ```import java.util.ArrayList;```
+    - สร้างตัวแปรอาเรย์/ประกาศตัวแปร  &nbsp;:&nbsp; ```ArrayList<String> cars = new ArrayList<String>();``` 
+    - Access ArrayList ```cars.get(0);```
+    - เพิ่มข้อมูล ```cars.add("Mazda");```
+    - ลดข้อมูล ```cars.remove(0);```
+    - Edit ArrayList ```cars.set(0, "Opel");```
+    - ขนาดของ ArrayList ```cars.size();```
+   
+  - &nbsp; Linked List &nbsp;:&nbsp; ```import java.util.LinkedList;```
+    - สร้างตัวแปรอาเรย์/ประกาศตัวแปร  &nbsp;:&nbsp; ```LinkedList<String> cars = new LinkedList<String>();``` 
+    - Access Linked List ```cars.get(0);```
+    - เพิ่มข้อมูล ```cars.add("Mazda");```
+    - ลบข้อมูล ```cars.remove(0);```
+    - Edit Linked List ```cars.set(0, "Opel");```
+    - ขนาดของ Linked List ```cars.size();```
     
   - &nbsp; String &nbsp;:&nbsp;
     - ดึงตัวอักษรในสตริงตำแหน่งที่ 0 ```str.charAt(0)```
@@ -66,18 +84,35 @@
     
   - &nbsp; Math &nbsp;:&nbsp; ```Math.min(5, 10);``` &nbsp;&nbsp; ```Math.max(5, 10);``` &nbsp;&nbsp; ```Math.sqrt(64);``` &nbsp;&nbsp; ```Math.abs(-4.7);``` &nbsp;&nbsp; ```Math.random();``` &nbsp;&nbsp; ```Math.pow(x, y)``` 
  
-  - &nbsp; [Hashmap](https://www.w3schools.com/java/java_hashmap.asp) &nbsp;:&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ```
+  - &nbsp; [Hashmap](https://www.w3schools.com/java/java_hashmap.asp) &nbsp;:&nbsp; ```import java.util.HashMap;```
+    - สร้างตัวแปรอาเรย์/ประกาศตัวแปร  &nbsp;:&nbsp; ```HashMap<String, String> capitalCities = new HashMap<String, String>();```
+    - เพิ่มข้อมูล ```capitalCities.put("England", "London");```
+    - Access ดึงข้อมูล ```capitalCities.get("England");```
+    - ลบข้อมูล ```capitalCities.remove("England");```
+    - ขนาดของ Hashmap ```capitalCities.size();```
+    - Hashmap - foreach loop ```for (String i : capitalCities.keySet()) { System.out.println(i); }``` หรือ ```for (String i : capitalCities.values()) {System.out.println(i); }```
     
-  - &nbsp; [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) &nbsp;:&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp; ``` ``` &nbsp;&nbsp;
+  - &nbsp; [Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html) &nbsp;:&nbsp;
+    - สร้างตัวแปรอาเรย์/ประกาศตัวแปร  &nbsp;:&nbsp; ```Stack<Integer> stack = new Stack<Integer>();
+    - เพิ่มข้อมูลลงแสต็ก ```stack_push(stack);```
+    - ดึงข้อมูลมาดู และลบ ในแสต็ก```stack_pop(stack);```
+    - ดึงมาดู ไม่ลบ ```stack_peek(stack);```
+    - ค้นหา ```stack_search(stack, 2);``` 
  
   - &nbsp; [Queue](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html)
 
 <br/>
 
 ### 2. &nbsp; **JAVA OOP** &nbsp;🧠
-  - &nbsp; method &nbsp;:&nbsp; การสร้างเมธอด &nbsp; ``` ``` &nbsp;&nbsp; การเรียกใช้เมธอด ``` ```
+  - &nbsp; method &nbsp;:&nbsp;
+    - การสร้างเมธอด &nbsp;:&nbsp;  เมธอด void ไม่ต้อง return ค่าไปยังจุดเรียกใช้ ```static void myMethod() {...}``` &nbsp;&nbsp; เมธอด return ค่าเป็น int ```static int plusMethodInt(int x, int y) {..}```
+    - การเรียกใช้เมธอด แค่ระบุ parameter ให้ตรง ถ้าไม่มีก็ไม่ต้องใส่```myMethod()```
+    - recursive function คือ การเรียกใช้ function ตัวมันเองตรง return (general case) ทำให้เกิดลูป ดังนั้นต้องใช้ if-else มาสร้างเงื่อนไข (base case) ให้มันหลุดลูปด้วย 
     
-  - &nbsp; class &nbsp;:&nbsp; การสร้างคลาส &nbsp; ``` ``` &nbsp;&nbsp; การระบุ constructor ``` ``` &nbsp;&nbsp; การเรียกใช้คลาส ``` ```
+  - &nbsp; class &nbsp;:&nbsp;
+    - การสร้างคลาส &nbsp; ``` ```
+    - การระบุ constructor ``` ```
+    - การเรียกใช้คลาส ``` ```
     
   - &nbsp; inheritance &nbsp;:&nbsp; ``` ```
     
