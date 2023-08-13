@@ -1,4 +1,5 @@
-# Java  &nbsp;Exercises &nbsp;🚀
+# JAVA  &nbsp;PROGRAMMING &nbsp; <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
+
 
 ## Java &nbsp;Syntax
 - &nbsp; BASIC JAVA
